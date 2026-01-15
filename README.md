@@ -4,9 +4,7 @@
 
 ### Clone this repository
 
-`
-git clone https://github.com/kagozi/Chat-bot.git
-`
+`git clone https://github.com/kagozi/Chat-bot.git`
 
 ### Install Cursor
 1. Visit cursor at `https://www.cursor.com/`
@@ -16,9 +14,7 @@ git clone https://github.com/kagozi/Chat-bot.git
 
 ### Install `uv` package manager
 Follow the instructions in this page:
-`
-https://docs.astral.sh/uv/getting-started/installation/
-`
+`https://docs.astral.sh/uv/getting-started/installation/`
 
 ### Create a virtual environment and install the packages
 Simply run:  
@@ -27,7 +23,7 @@ Simply run:
 ### API Keys (Optional)
 For the best results, I would recommend a propietary model from Open AI or Gemini. Alternatively, you can use Ollama, a locally run model.
 
-For OPEN AI, set up your OpenAI key at https://platform.openai.com/api-keys 
+For OPEN AI, set up your OpenAI key at `https://platform.openai.com/api-keys` 
 Copy the keys and paste it in the `OPENAI_API_KEY` field
 
 ```
