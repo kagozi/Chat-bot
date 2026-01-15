@@ -9,7 +9,7 @@ git clone https://github.com/kagozi/Chat-bot.git
 `
 
 ### Install Cursor
-1. Visit cursor at https://www.cursor.com/
+1. Visit cursor at `https://www.cursor.com/`
 2. Sign In then create your account
 3. Download, install and open Cursor
 4. Click "Open project" and open the folder named "Chat-bot"
