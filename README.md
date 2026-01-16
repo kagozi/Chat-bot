@@ -26,9 +26,14 @@ For the best results, I would recommend a propietary model from Open AI or Gemin
 For OPEN AI, set up your OpenAI key at `https://platform.openai.com/api-keys` 
 Copy the keys and paste it in the `OPENAI_API_KEY` field
 
+### PUSH NOTIFICATIONS
+Visit https://pushover.net/ and click 'Login or Signup' and create your API keys.
+
 ```
 OPENAI_API_KEY=
 GOOGLE_API_KEY=xxxx
 ANTHROPIC_API_KEY=xxxx
 DEEPSEEK_API_KEY=xxxx
+PUSHOVER_USER=xxxx
+PUSHOVER_TOKEN=xxxx
 ```
