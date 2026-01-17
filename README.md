@@ -31,12 +31,27 @@ Visit `https://pushover.net/` and click 'Login or Signup' and create your API ke
 
 
 ### Deployment to HF
-To deploy to HuggingFace, create an account here: `https://huggingface.co`
+To deploy to HuggingFace:
+1. create an account here: `https://huggingface.co`
+2. Click on the Avatar, select the Access Tokens and Create New Token. Give it WRITE permissions.
+Run: `uv tool install 'huggingface_hub[cli]'` to install the HuggingFace tool, then `hf auth login --token YOUR_TOKEN_HERE`, like `hf auth login --token hf_xxxxxx`,
+
+### Update your .env file:
 ```
-OPENAI_API_KEY=
+mv .env.example .env
+```
+
+Update the variables in the .env with your values:
+
+```
+OPENAI_API_KEY=xxxx
 GOOGLE_API_KEY=xxxx
 ANTHROPIC_API_KEY=xxxx
 DEEPSEEK_API_KEY=xxxx
 PUSHOVER_USER=xxxx
 PUSHOVER_TOKEN=xxxx
+HF_TOKEN=xxxx
 ```
+
+Run `uv run gradio deploy`
+Follow the instruction, create a folder and name it chat-bot. Specify app.py, choose cpu-basic as the hardware
