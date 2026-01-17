@@ -1,3 +1,9 @@
+---
+title: chat-bot
+app_file: app.py
+sdk: gradio
+sdk_version: 6.3.0
+---
 ## Build an autonomous AI Agent that Chats on your behalf
 
 ## Setup
