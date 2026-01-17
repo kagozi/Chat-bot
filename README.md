@@ -27,8 +27,11 @@ For OPEN AI, set up your OpenAI key at `https://platform.openai.com/api-keys`
 Copy the keys and paste it in the `OPENAI_API_KEY` field
 
 ### PUSH NOTIFICATIONS
-Visit https://pushover.net/ and click 'Login or Signup' and create your API keys.
+Visit `https://pushover.net/` and click 'Login or Signup' and create your API keys.
 
+
+### Deployment to HF
+To deploy to HuggingFace, create an account here: `https://huggingface.co`
 ```
 OPENAI_API_KEY=
 GOOGLE_API_KEY=xxxx
